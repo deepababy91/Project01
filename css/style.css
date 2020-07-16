@@ -80,4 +80,35 @@ outline: none !important;
        
    }
 
+   /*service page as well as gallery page css */
+
+   #servicecolumn
+   {
+       margin:100px;
+       text-align: center;
+          
+ 
+   }
+
+
+ 
+   #services{
+ 
+       margin:100px;
+       text-align: center;
+       font-size: 80px;
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       color:orange;
+       
+   }
+ 
+   
+ 
+ 
+ 
+  
+   
+  
+ 
+
  
