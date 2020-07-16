@@ -101,6 +101,45 @@ outline: none !important;
        color:orange;
        
    }
+
+   /*Contact us form styling*/
+   .wrapper{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #e1e6a6;
+      width:100%;
+      max-width: 810px;
+      margin:100px auto 0;
+      padding: 20px;
+      box-sizing:border-box;
+      margin-bottom: 2%;
+      font-weight: bold;
+      font-style: italic;
+  }
+  .content
+  {
+      text-align: center;
+      letter-spacing: 1px;
+  }
+  
+  #contact{
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      
+      
+  }
+
+  
+   
+   .fishimg{
+       width:288px;
+       height:192px;
+   }
+   figcaption{
+       font-weight: bold;
+       
+   }
+
  
    
  
