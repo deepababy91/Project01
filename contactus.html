@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <!--head with title as Contact Us|A&D Aquatics -->
+
+    <head>
+        <title>Contact Us|A&D Aquatics</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" /> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googlepis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+  
+    
+
+    </head>
+<!--Navigation bars including home,services,gallery and contact us.Used bootstrap navbar for implementing this-->
+    <body>
+        <div class="menu-bar">
+        <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img src="img/logo1.jpg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav"></div>
+              <ul class="navbar-nav ml-auto text-right">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">SERVICES</a>
+                </li>
+                <!--Gallery navigation item contains drop down menu with 2 options fishes and corals.Used bootstrap nav tabs with drop down to implement this-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">GALLERY</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="coral.html">Corals</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="fish.html">Fishes</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">CONTACT US</a>
+                  </li>
+               
+              </ul>
+
+            </div>
+            </div>
+            </nav>
+
+           
+           <!--Conatct us form using html,php and bootstrap-->
+          <div class="wrapper">
+             <div class="content">
+              <h1>CONTACT US</h1>
+              <p>Connect with us to know about the new arrivals and shipment facilities</p>
+               
+              
+             </div>
+             <div class="container">
+               
+
+              <div class="row">
+          
+                <div class="col-lg-8 col-lg-offset-2">
+          
+                 
+                  <form id="contact-form" method="post" action="contact.php" role="form">
+          
+                  <div class="messages"></div>
+          
+                  <div class="controls" id="contact">
+          
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_name">First name *</label>
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_lastname">Last name *</label>
+                          <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_email">Email *</label>
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_phone">Phone</label>
+                          <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label for="form_message">Message *</label>
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                      </div>
+                    </div>
+                  </div>
+          
+                  </form>
+          
+                </div>
+          
+              </div>
+          
+             </div>
+
+
+           </div>
+
+           
+            <!--footer-->
+            
+
+ <footer>
+  <div class="container-fluid">
+  <div class="row text-center">
+      <div class="col-lg-4">
+          <hr class=light>
+          <h5>Address</h5>
+          <hr class="light">
+          <p>222-258-8958</p>
+          <p>deepa154545@gmail.com</p>
+          <p>250 arlington</p>
+          <p>fbdhvgj</p>
+          
+      </div>
+      <div class="col-lg-4">
+      <hr class="light">
+      <h5>our hours</h5>
+      <hr class="light">
+      <p>Mon-Fri :9am-5pm</p>
+      <p>Saturday:10am-5pm</p>
+      <p>jhvjgfvgh</p>
+      <p>nfbcvgj</p>
+    
+      </div>
+      <div class="col-lg-4">
+          <hr class="light">
+          <h5>Service areas</h5>
+          <hr class="light">
+          <p>Spring,NJ,4545745</p>
+          <p>Spring,NJ,4545745</p>
+          <p>Spring,NJ,4545745</p>
+          <p>dfhbgcvhj</p>
+         
+       </div>
+  <div class="col-12">
+      <hr class="light">
+      <h5>&copy;a&daquatics.com</h5>
+</div>        
+</div>
+</div>
+  </footer>
+          
+           </body>
+            
+          
+
+    
+</html>
