@@ -61,6 +61,7 @@ outline: none !important;
 }
 
 /*slide paragraph styling*/
+
 .caption1
 {
     color:white;
@@ -106,7 +107,7 @@ outline: none !important;
        
    }
 
-   /*columns css */
+   /*columns css for service page */
 
    #servicecolumn
    {
@@ -117,8 +118,28 @@ outline: none !important;
           
  
    }
+   /*css for fish gallery page columnns*/
+   #fishcolumn
+   {
+       
+       text-align: center;
+       margin-top: auto;
+       padding:50px;
+          
+ 
+   }
+   /*css for coral gallery page columns*/
+   #coralcolumn
+   {
+       
+       text-align: center;
+       margin-top: auto;
+       padding:50px;
+          
+ 
+   }
 
-/*css for page heading */
+/*css for services page heading */
  
    #services{
  
@@ -132,6 +153,49 @@ outline: none !important;
        padding:30px;
        
    }
+
+   /*css for fish gallery page heading*/
+   #fishes{
+ 
+   
+    text-align: center;
+    font-size: 80px;
+    font-family:cursive;
+    color:royalblue;
+    font-style: italic;
+    background-color: #e1e6a6;
+    padding:30px;
+    
+}
+/*css for coral gallery page heading*/
+ 
+ #corals{
+ 
+   
+    text-align: center;
+    font-size: 80px;
+    font-family:cursive;
+    color:royalblue;
+    font-style: italic;
+    background-color: #e1e6a6;
+    padding:30px;
+    
+}
+   /*contact us page top and bottom text */
+
+   .contacttext{
+ 
+   
+    text-align: center;
+    font-size: 80px;
+    font-family:cursive;
+    color:royalblue;
+    font-style: italic;
+    background-color: #e1e6a6;
+    padding:30px;
+    
+}
+
 /*background color for services and gallery page*/
    
 .bgcolor{
