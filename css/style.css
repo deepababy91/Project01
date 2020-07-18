@@ -46,25 +46,53 @@ color:black;
 outline: none !important;
 }
 
-/*slide caption styling*/
+/*slide h1 styling*/
 
 #slide1
 {
-    color:orangered;
-    font-size:150px;
-    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size:100px;
+    font-style: italic;
     margin-top:auto;
     margin-bottom: auto;
+    padding:25%;
+    font-family: cursive;
     
 }
 
+/*slide paragraph styling*/
+#caption1
+{
+    color:white;
+    font-size:30px;
+    font-style: italic;
+    margin-top:auto;
+    margin-bottom: auto;
+    padding:10%;
+    font-family: cursive;
+    
+}
 /* carousel images styling*/
 
 .carousel-inner img {
     width:100%;
     height:100%;
+    padding:5%;
+ 
+  
+    background-color: #e1e6a6;
     
   }
+
+  /*carousel indicators styling*/
+
+  .carousel-indicators {
+    margin: 7%;
+    height: auto;
+}
+
+ 
+
    /*footer styling*/
 
    footer {
@@ -84,34 +112,41 @@ outline: none !important;
 
    #servicecolumn
    {
-       margin:100px;
+       
        text-align: center;
+       margin-top: auto;
+       padding:50px;
           
  
    }
 
-
+/*css for services ,gallery and contact us headings */
  
    #services{
  
-       margin:100px;
+   
        text-align: center;
        font-size: 80px;
-       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       color:orange;
+       font-family:cursive;
+       color:royalblue;
+       font-style: italic;
+       background-color: #e1e6a6;
+       padding:30px;
        
    }
+
+  
 
    /*Contact us form styling*/
    .wrapper{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: #e1e6a6;
+    background: lightcoral;
       width:100%;
       max-width: 810px;
-      margin:100px auto 0;
+      margin: auto ;
       padding: 20px;
       box-sizing:border-box;
-      margin-bottom: 2%;
+     
       font-weight: bold;
       font-style: italic;
   }
@@ -129,17 +164,26 @@ outline: none !important;
       
   }
 
-  
+  /*css addition for fish images*/
    
-   .fishimg{
+  .fishimg{
+       width:288px;
+       height:192px;
+  }
+   
+  /*width and height adjustment for coral images*/
+
+   .coralimg{
        width:288px;
        height:192px;
    }
-   figcaption{
-       font-weight: bold;
-       
-   }
 
+   /*css for fish and coral image captions*/
+   
+   figcaption{
+    font-weight: bold;
+    
+}
  
    
  
