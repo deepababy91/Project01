@@ -48,7 +48,7 @@ outline: none !important;
 
 /*slide h1 styling*/
 
-#slide1
+.slide1
 {
     color:white;
     font-size:100px;
@@ -61,7 +61,7 @@ outline: none !important;
 }
 
 /*slide paragraph styling*/
-#caption1
+.caption1
 {
     color:white;
     font-size:30px;
@@ -106,7 +106,7 @@ outline: none !important;
        
    }
 
-   /*service page as well as gallery page css */
+   /*columns css */
 
    #servicecolumn
    {
@@ -118,7 +118,7 @@ outline: none !important;
  
    }
 
-/*css for services ,gallery and contact us headings */
+/*css for page heading */
  
    #services{
  
