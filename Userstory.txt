@@ -1,0 +1,39 @@
+Project 01-My first basic business website project user stories
+
+Scope of the project
+
+To create an aquatics website named A&D aquatics 
+
+User story1: As an aquatics business owner, I want to see the aquatics website home page having store's images and about details 
+so that the customer get an idea about the shop
+
+Acceptance conditions:
+a)There should be atleast 4 images
+b)There should be store's name which is A&D Aquatics and description on home page 
+
+
+User story2: As an aquatics business owner, I want to see store's logo and details related to the store on all the pages so that the
+customer can get the details from any page
+
+Acceptance conditions:
+a)Details including address, service hours, services areas and logo should be there on all the pages 
+
+User story 3:As an aquatics business owner, I want to see the services offered by my store in the website so that the customers can 
+make use of those services
+
+Acceptance conditions:
+a)There should be atleast 6 services with description and image
+ 
+
+User story 4:As an aquatics business owner, I want to see the corals and fishes prices in the website so that the customers can
+compare with other store prices 
+Acceptance conditions:
+a)There should be fish and coral images 
+b)There should be atleast 9 fishes and corals prices
+
+User story 5:As an aquatics business owner, I want to see a contact page in the website so that customers can enter 
+their details and enter the message to contact with us.
+
+
+
+
