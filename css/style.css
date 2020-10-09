@@ -51,6 +51,7 @@
     background-color:#3f3f3f;
     color:#d5d5d5;
     margin-top: auto;
+    font-family: 'Leckerli One', cursive;
    }
    hr.light {
        border-top: 1px solid #d5d5d5;
@@ -281,7 +282,7 @@
 }
 @media screen and (min-width:1200px) {
     .carousel-item {
-        height: 35rem;
+        height: 40rem;
         }
 
         .slide1{
