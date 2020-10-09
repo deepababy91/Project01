@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -5,46 +7,20 @@
 
 /*navbar styling*/
 
-.menu-bar
-{
-    min-height:8%;
-    background-color:rgb(85, 210, 255);
+.navbar-brand{
+    font-family: 'Leckerli One', cursive;
+
+
 }
-
-/*Logo image width styling*/
-
-.menu-bar img {
-    width:250px;  
-  
+.nav-item{
+    font-family: 'Leckerli One', cursive; 
+ 
 }
-
-
-
-/*navigation menu items color*/
-
-.nav-link
-{
-color:white;
-}
-
-/*Color hovering over navigation items*/
-
-.nav-link:hover
-{
-color:black;
-}
-
-/*navbar toggle styling*/
-
-.navbar-toggler .fa
-{
-    color:white;
-}
-
-.navbar-toggler .fa
-{
-outline: none !important;
-}
+.carousel-inner img {
+    width:100%;
+    height:100%;
+    
+  }
 
 /*slide h1 styling*/
 
@@ -52,51 +28,19 @@ outline: none !important;
 
 {
     color:white;
-    font-size:80px;
-    font-family: cursive;
-    margin-top:auto;
-    margin-bottom: auto;
-    padding:10%;
+    font-size:150px;
+    font-family: 'Leckerli One', cursive;
+
     
 }
 
-/*{
-    color:white;
-    font-size:50px;
-    font-style: italic;
-   
-    font-family: cursive;
-    
-}*/
 
-/*slide paragraph styling*/
-
-
-/*{
-    color:white;
-    font-size:30px;
-    font-style: italic;
-    margin-top:auto;
-    margin-bottom: auto;
-    padding:10%;
-    font-family: cursive;
-    
-}*/
 /* carousel images styling*/
 
-.carousel-inner img {
-    width:100%;
-    height:100%;
-    padding:5%;
-    background-color: #e1e6a6;
-    
-  }
 
-  /*carousel indicators styling*/
 
-  .carousel-indicators {
-    margin: 7%;
-    height: auto;
+.hometext{
+    font-family: 'Leckerli One', cursive;
 }
 
  
@@ -124,6 +68,7 @@ outline: none !important;
        text-align: center;
        margin-top: auto;
        padding:50px;
+       font-family: 'Leckerli One', cursive;
           
  
    }
@@ -155,10 +100,10 @@ outline: none !important;
    
        text-align: center;
        font-size: 80px;
-       font-family:cursive;
+    
        color:royalblue;
-       font-style: italic;
-       background-color: #e1e6a6;
+       font-family: 'Leckerli One', cursive ;
+  
        padding:30px;
        
    }
@@ -169,10 +114,10 @@ outline: none !important;
    
     text-align: center;
     font-size: 80px;
-    font-family:cursive;
+ 
     color:royalblue;
-    font-style: italic;
-    background-color: #e1e6a6;
+    font-family: 'Leckerli One', cursive ;
+
     padding:30px;
     
 }
@@ -183,10 +128,10 @@ outline: none !important;
    
     text-align: center;
     font-size: 80px;
-    font-family:cursive;
+ 
     color:royalblue;
-    font-style: italic;
-    background-color: #e1e6a6;
+    font-family: 'Leckerli One', cursive ;
+
     padding:30px;
     
 }
@@ -197,20 +142,16 @@ outline: none !important;
    
     text-align: center;
     font-size: 80px;
-    font-family:cursive;
+ 
     color:royalblue;
-    font-style: italic;
-    background-color: #e1e6a6;
+    font-family: 'Leckerli One', cursive ;
+
     padding:30px;
     
 }
 
 /*background color for services and gallery page*/
    
-.bgcolor{
-    background-color: #e1e6a6;
-   
-}
 
   
 
@@ -293,6 +234,56 @@ outline: none !important;
 #contactheading{
     font-family: 'Leckerli One', cursive;
 }
+/*using media queries for page responsiveness*/ 
+
+@media only screen and (max-width: 600px) {
+    .carousel-item {
+    height: 10rem;
+    }
+    .slide1{
+        font-size: 1.5rem;
+
+    }
+}
+
+@media screen and (min-width:600px) {
+    .carousel-item {
+        height: 15rem;
+        }
+        .slide1{
+            font-size: 2.5rem;
+    
+        }
+}
+@media screen and (min-width:768px) {
+    .carousel-item {
+        height: 20rem;
+        }
+        .slide1{
+            font-size: 3.5rem;
+    
+        }
+}
+@media screen and (min-width:992px) {
+    .carousel-item {
+        height: 25rem;
+        }
+        .slide1{
+            font-size: 4rem;
+    
+        }
+}
+@media screen and (min-width:1200px) {
+    .carousel-item {
+        height: 35rem;
+        }
+
+        .slide1{
+            font-size: 4.5rem;
+    
+        }
+}
+
  
    
  
