@@ -12,47 +12,48 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" /> 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googlepis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
     
   
     
 
     </head>
-<!--Navigation bars including home,services,gallery and contact us.Used bootstrap navbar for implementing this-->
+<!--Responsive navigation bar including home,services,gallery and contact us.Used bootstrap navbar for implementing this-->
     <body>
-        <div class="menu-bar">
-        <div class="container">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"><img src="img/logo1.jpg" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav"></div>
-              <ul class="navbar-nav ml-auto text-right">
-                <li class="nav-item">
-                  <a class="nav-link active" href="index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="services.html">SERVICES</a>
-                </li>
-                <!--Gallery navigation item contains drop down menu with 2 options fishes and corals.Used bootstrap nav tabs with drop down to implement this-->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">GALLERY</a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="coral.html">Corals</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="fish.html">Fishes</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contactus.html">CONTACT US</a>
-                  </li>
-               
-              </ul>
+         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+  <h2 class="navbar-brand">A&D AQUATICS</h2>
 
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+        </li>
+       <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       Gallery
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="coral.html">Coral</a>
+        <a class="dropdown-item" href="fish.html">Fish</a>
             </div>
-            </div>
-            </nav>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contactus.html">Contact Us</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
 
             <main class="bgcolor">
             
