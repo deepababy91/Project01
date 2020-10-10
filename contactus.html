@@ -8,154 +8,120 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" "text/css" href="css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" /> 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-   
-    
-  
-    
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" /> 
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
+
 <!--Responsive navigation bar including home,services,gallery and contact us.Used bootstrap navbar for implementing this-->
-    <body class="background">
-         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <!-- Brand -->
-  <h2 class="navbar-brand">A&D AQUATICS</h2>
+       <body class="background">
+             
+             <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Company name -->
+               <h2 class="navbar-brand">A&D AQUATICS</h2>
 
   <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                 <span class="navbar-toggler-icon"></span>
+              </button>
 
   <!-- Navbar links -->
-  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="services.html">Services</a>
-        </li>
-       <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-       Gallery
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="coral.html">Coral</a>
-        <a class="dropdown-item" href="fish.html">Fish</a>
-            </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contactus.html">Contact Us</a>
-      </li>
-      
-    </ul>
-  </div>
-</nav>
+              <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                 <ul class="navbar-nav">
+                    <li class="nav-item">
+                       <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                          Gallery
+                        </a>
+                           <div class="dropdown-menu">
+                              <a class="dropdown-item" href="coral.html">Coral</a>
+                              <a class="dropdown-item" href="fish.html">Fish</a>
+                           </div>
+                      </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="contactus.html">Contact Us</a>
+                       </li>
+                  </ul>
+               </div>
+              </nav>
 
-            <main>
-            
+                   <main>
+    <!--Conatct us form using Formspree-->
+     
+                    <div class="contactform">
+                        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+                        <h3 id="contactheading">CONTACT US</h3>
+                        <fieldset id="fs-frm-inputs">
+                           <div class="contactdetails">
+                             <label for="firstname">First Name: </label>
+                                <input type="text" name="firstname" id="firstname" placeholder="Enter your firstname" required="required"/>
+                             </div>
+                           <div class="contactdetails">
+                             <label for="lastname">Last Name: </label>
+                                <input type="text" name="name" id="lastname" placeholder="Enter your lastname" required="required"/>
+                           </div>
+                           <div class="contactdetails">
+                             <label for="emailaddress">Email Address: </label>
+                                <input type="email" name="email" id="email" placeholder="Enter your email address" required="required"/>
+                           </div>
+                           <div class="contactdetails">
+                             <label for="telephone">Telephone Number (Optional)</label>
+                                <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555"/>
+                           </div>
+                          <div class="contactdetails">
+                             <label for="message">Message</label>
+                                <textarea rows="6" name="message" id="message" placeholder="Enter your message here " required="required"></textarea>
+                          </div>
+                              <input type="hidden" name="emailsubject" id="emailsubject" value="Contact Form Submission"/>
+                        </fieldset>
+                          <div><input type="submit" value="Send message"></div>
+                        </form>
+                    </div>
 
-                  
-                   
-                
-              
-
-
-           
-           <!--Conatct us form using Formspree-->
-      <section>
-           <div class="contactform">
-            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
-            <h3 id="contactheading">CONTACT US</h3>
-
-    
-     <fieldset id="fs-frm-inputs">
-     <div class="contactdetails">
-    <label for="firstname">First Name: </label>
-    <input type="text" name="firstname" id="firstname" placeholder="Enter your firstname" required="required"/>
-    </div>
-    <div class="contactdetails">
-    <label for="lastname">Last Name: </label>
-    <input type="text" name="name" id="lastname" placeholder="Enter your lastname" required="required"/>
-    </div>
-    <div class="contactdetails">
-    <label for="emailaddress">Email Address: </label>
-    <input type="email" name="email" id="email" placeholder="Enter your email address" required="required"/>
-    </div>
-    <div class="contactdetails">
-    <label for="telephone">Telephone Number (Optional)</label>
-    <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555"/>
-    </div>
-    <div class="contactdetails">
-    <label for="message">Message</label>
-    
-    <textarea rows="6" name="message" id="message" placeholder="Enter your message here " required="required"></textarea>
-    </div>
-   
-    <input type="hidden" name="emailsubject" id="emailsubject" value="Contact Form Submission"/>
-  </fieldset>
-  <div><input type="submit" value="Send message"></div>
-</form>
-
-</div>
-
-
-    
-</section>
-
-           </main>
-
-          
-
-
-           
+                  </main>
+     
            <!--footer with address, service hours and service areas. Also added website name for a&daquatics-->
-       <footer>
-        <div class="container-fluid">
-        <div class="row text-center">
-            <div class="col-12 col-md-4">
-                <hr class=light>
-                <h5>Address</h5>
-                <hr class="light">
-                <p>222-258-8958</p>
-                <p>deepa154545@gmail.com</p>
-                <p>250 Bergenfield</p>
-                <p>New Jersey</p>
-                
-            </div>
-            <div class="col-12 col-md-4">
-            <hr class="light">
-            <h5>Service Hours</h5>
-            <hr class="light">
-            <p>Mon-Fri  :9am-5pm</p>
-            <p>Saturday :10am-5pm</p>
-            <p>Sunday   :Closed</p>
-           
-          
-            </div>
-            <div class="col-12 col-md-4">
-                <hr class="light">
-                <h5>Service Areas</h5>
-                <hr class="light">
-                <p>Bergenfield,NJ,77568</p>
-                <p>Humble,NY,78478</p>
-                <p>Arlington,CAN,45457</p>
-             
-               
-             </div>
-        <div class="col-12">
-            <hr class="light">
-            <h5>&copy;a&daquatics.com</h5>
-     </div>        
-    </div>
-    </div>
-        </footer>
+                <footer>
+                    <div class="container-fluid">
+                        <div class="row text-center">
+                          <div class="col-12 col-md-4">
+                              <hr class=light>
+                              <h5>Address</h5>
+                               <hr class="light">
+                               <p>222-258-8958</p>
+                               <p>deepa154545@gmail.com</p>
+                               <p>250 Bergenfield</p>
+                               <p>New Jersey</p>
+                          </div>
+                          <div class="col-12 col-md-4">
+                               <hr class="light">
+                               <h5>Service Hours</h5>
+                               <hr class="light">
+                               <p>Mon-Fri  :9am-5pm</p>
+                               <p>Saturday :10am-5pm</p>
+                               <p>Sunday   :Closed</p>
+                          </div>
+                          <div class="col-12 col-md-4">
+                                <hr class="light">
+                                <h5>Service Areas</h5>
+                                <hr class="light">
+                                <p>Bergenfield,NJ,77568</p>
+                                <p>Humble,NY,78478</p>
+                                <p>Arlington,CAN,45457</p>
+                         </div>
+                         <div class="col-12">
+                            <hr class="light">
+                            <h5>&copy;a&daquatics.com</h5>
+                         </div>        
+                       </div>
+                     </div>
+                 </footer>
     
-                 
-    
-        </body>
-    </html>
+       </body>
+</html>
     
