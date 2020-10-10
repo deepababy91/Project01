@@ -12,7 +12,7 @@ a)There should be atleast 4 images
 b)There should be store's name which is A&D Aquatics and description on home page 
 
 
-User story2: As an aquatics business owner, I want to see store's logo and details related to the store on all the pages so that the
+User story2: As an aquatics business owner, I want to see store's logo or name and details related to the store on all the pages so that the
 customer can get the details from any page
 
 Acceptance conditions:
