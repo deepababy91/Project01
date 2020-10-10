@@ -6,162 +6,107 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" "text/css" href="css/style.css">
-      
-       
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" /> 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-   
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" /> 
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
     <!--Responsive navigation bar including home,services,gallery and contact us.Used bootstrap navbar for implementing this-->
     <body class="background">
-             <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <!-- Brand -->
-  <h2 class="navbar-brand">A&D AQUATICS</h2>
+         <h2 class="navbar-brand">A&D AQUATICS</h2>
 
   <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+           <span class="navbar-toggler-icon"></span>
+            </button>
 
   <!-- Navbar links -->
-  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="services.html">Services</a>
-        </li>
-       <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-       Gallery
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="coral.html">Coral</a>
-        <a class="dropdown-item" href="fish.html">Fish</a>
-            </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contactus.html">Contact Us</a>
-      </li>
-      
-    </ul>
-  </div>
-</nav>
+               <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                             Gallery
+                        </a>
+                              <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="coral.html">Coral</a>
+                                   <a class="dropdown-item" href="fish.html">Fish</a>
+                               </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                      </li>
+                   </ul>
+                </div>
+        </nav>
                 <main>
 <!--Fish pricing page heading-->
-                
-                <header>
-                    <h1 id="fishes">Our Fish Supplies</h1>
-                </header>
-
-                
+                    <h1 id="fish">Our Fish Supplies</h1>               
 <!--providing responsiveness for the fish image columns by bootstrap 4 grid assigning 'class=col-12 col-md-6 col-lg-4' so that col-(<576px) and col-sm(>576px) has 1 column 
           col-md(>768px) and col-lg(>992px) has 2 columns and col-xl (>1200px) has 3 columns -->
-                <div class="container">
-
-                    <div class="row" id="fishcolumn">
-                        <div class="col-12 col-md-6 col-xl-4">
-                            <img src="img/fish1.png" class="fishimg">
-                           <figcaption>Triggerfish</figcaption>
-                           <div>$30</div>
-            
-            
-                        </div>
-            
-                        <div class="col-12 col-md-6 col-xl-4">
-                         <img src="img/fish2.png" class="fishimg">
-                         <figcaption>Mollies</figcaption>
-                         <div>$15</div>
-                            
-            
-                        </div>
-            
-                        <div class="col-12 col-md-6 col-xl-4">
-                          <img src="img/fish3.jpg" class="fishimg">
-                          <figcaption>Butterflyfish</figcaption>
-                          <div>$25</div>
-                            
-                        </div>
-                        <div class="col-12 col-md-6 col-xl-4">
-                            <img src="img/fish4.jpg" class="fishimg">
-            
-                            <figcaption>Wrasses</figcaption>
-                            <div>$45</div>
-                                   
-            
-                         
-            
-                        </div>
-                        <div class="col-12 col-md-6 col-xl-4">
-                            
-                           <img src="img/fish5.jpg" class="fishimg">
-                           <figcaption>Yellow-Tang</figcaption>
-                           <div>$55</div>
-                                   
-            
-                            
-                        </div>
-                        <div class="col-12 col-md-6 col-xl-4">
-                            
-                          <img src="img/fish6.jpg" class="fishimg">
-                          <figcaption>Dottyback</figcaption>
-                          <div>$65</div>
-                             
-                                     
-            
-                            
-            
-                        </div>
-                        <div class="col-12 col-md-6 col-xl-4">
-                            
-                            <img src="img/fish7.jpg" class="fishimg">
-                            <figcaption>Blennies</figcaption>
-                            <div>$25</div>
-                               
-                                       
-              
-                              
-              
-                          </div>
+                    <div class="container">
+                         <div class="row" id="fishcolumn">
+                              <div class="col-12 col-md-6 col-xl-4">
+                                <img src="img/fish1.png" class="fishimg">
+                                <figcaption>Triggerfish</figcaption>
+                                <div>$30</div>
+                              </div>
+                              <div class="col-12 col-md-6 col-xl-4">
+                                <img src="img/fish2.png" class="fishimg">
+                                <figcaption>Mollies</figcaption>
+                                <div>$15</div>  
+                             </div>          
+                            <div class="col-12 col-md-6 col-xl-4">
+                                <img src="img/fish3.jpg" class="fishimg">
+                                <figcaption>Butterflyfish</figcaption>
+                                <div>$25</div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4">
+                                <img src="img/fish4.jpg" class="fishimg">
+                                <figcaption>Wrasses</figcaption>
+                                 <div>$45</div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4">
+                              <img src="img/fish5.jpg" class="fishimg">
+                              <figcaption>Yellow-Tang</figcaption>
+                              <div>$55</div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-4">
+                              <img src="img/fish6.jpg" class="fishimg">
+                              <figcaption>Dottyback</figcaption>
+                              <div>$65</div>
+                            </div>
+                           <div class="col-12 col-md-6 col-xl-4">
+                              <img src="img/fish7.jpg" class="fishimg">
+                              <figcaption>Blennies</figcaption>
+                              <div>$25</div>
+                            </div>
+                           <div class="col-12 col-md-6 col-xl-4">
+                              <img src="img/fish8.jpg" class="fishimg">
+                              <figcaption>Blue-Tang</figcaption>
+                              <div>$30</div>
+                           </div>
                           <div class="col-12 col-md-6 col-xl-4">
-                            
-                            <img src="img/fish8.jpg" class="fishimg">
-                            <figcaption>Blue-Tang</figcaption>
-                            <div>$30</div>
-                               
-                                       
-              
-                              
-              
+                              <img src="img/fish9.jpg" class="fishimg">
+                              <figcaption>Firefish</figcaption>
+                               <div>$65</div>
                           </div>
-                          <div class="col-12 col-md-6 col-xl-4">
-                            
-                            <img src="img/fish9.jpg" class="fishimg">
-                            <figcaption>Firefish</figcaption>
-                            <div>$65</div>
-                               
-                                       
-              
-                             
-              
-                          </div>
-                          
-            
+                        </div>
                     </div>
-            
-                </div>
 
                 </main>
                  <!--footer with address, service hours and service areas. Also added website name for a&daquatics-->
        <footer>
         <div class="container-fluid">
         <div class="row text-center">
-            <div class="col-lg-4">
+            <div class="col-12 col-md-4">
                 <hr class=light>
                 <h5>Address</h5>
                 <hr class="light">
@@ -169,38 +114,31 @@
                 <p>deepa154545@gmail.com</p>
                 <p>250 Bergenfield</p>
                 <p>New Jersey</p>
-                
             </div>
-            <div class="col-lg-4">
-            <hr class="light">
-            <h5>Service Hours</h5>
-            <hr class="light">
-            <p>Mon-Fri  :9am-5pm</p>
-            <p>Saturday :10am-5pm</p>
-            <p>Sunday   :Closed</p>
-           
-          
+            <div class="col-12 col-md-4">
+                <hr class="light">
+                <h5>Service Hours</h5>
+                <hr class="light">
+                <p>Mon-Fri  :9am-5pm</p>
+                <p>Saturday :10am-5pm</p>
+                <p>Sunday   :Closed</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-12 col-md-4">
                 <hr class="light">
                 <h5>Service Areas</h5>
                 <hr class="light">
                 <p>Bergenfield,NJ,77568</p>
                 <p>Humble,NY,78478</p>
                 <p>Arlington,CAN,45457</p>
-             
-               
-             </div>
-        <div class="col-12">
-            <hr class="light">
-            <h5>&copy;a&daquatics.com</h5>
-     </div>        
-    </div>
-    </div>
+            </div>
+            <div class="col-12">
+             <hr class="light">
+             <h5>&copy;a&daquatics.com</h5>
+            </div>        
+        </div>
+        </div>
         </footer>
     
-                 
-    
-        </body>
-    </html>
+    </body>
+</html>
     
